@@ -6,10 +6,7 @@
 
   Note.prototype.displayNote = function () {
     return this.note
-  }
+  };
 
-  export.displayNote = displayNote;
+  exports.Note = Note;
 })(this);
-
-var note = new Note("notes");
-note.displayNote();
