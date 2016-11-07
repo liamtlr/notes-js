@@ -1,4 +1,7 @@
-// var note = require('../note').Note;
+//
+// var Note  = require('../note-model');
+// var note;
+
 
 function testNotedisplaysATextString() {
   var note = new Note("Success!");
@@ -9,3 +12,4 @@ function testNotedisplaysATextString() {
     console.log(".");
   };
 }
+testNotedisplaysATextString()
