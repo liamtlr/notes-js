@@ -1,2 +1,4 @@
-# notes-js
-Week 7 Makers project
+
+# notejs
+---
+Why are we doing this with no test library
