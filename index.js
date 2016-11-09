@@ -1,11 +1,15 @@
-//
-// var noteList = new NoteList;
-// var noteListController = new NoteListController(noteList);
-//
-// noteList.addNote("Favourite drink: seltzer");
-// noteList.addNote("Favourite animal: Meercat");
 
-// noteListController.updateURL()
+var noteList = new NoteList;
+noteList.addNote("Favourite drink: seltzer");
+noteList.addNote("Favourite animal: Meercat");
+var noteListController = new NoteListController(noteList);
 
-noteListController.insertNoteViewHTML();
-noteListController.returnSingleNote();
+
+
+
+noteListController.insertNoteViewHTML("app", noteListController.noteListHTML);
+
+
+noteListController.updateURL()
+
+// noteListController.returnSingleNote();
